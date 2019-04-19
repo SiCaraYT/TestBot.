@@ -5,7 +5,7 @@ const prefix = '=';
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` =help | Legend System ✨ `,"https://www.twitch.tv/S-F")
+client.user.setGame(` =help | Mosc System.. `,"https://www.twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -195,7 +195,6 @@ ${prefix}help admin ⇏ اوامر ادارة السيرفر
 ${prefix}help games ⇏ اوامر الالعاب
 ${prefix}help music ⇏ اوامر الموسيقى
 
-${prefix}clan لعرض اوامر الكلانات 
 `)
    message.channel.sendEmbed(embed)
     
@@ -414,7 +413,7 @@ client.on('message', async msg => {
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 
-					.setFooter("LegendSystem")
+					.setFooter("Mosc System.")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					try {
