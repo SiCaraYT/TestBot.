@@ -347,10 +347,10 @@ client.on('guildDelete', guild => {
      .setTitle('Click Here To Add Bot .!')
      .setURL('https://discordapp.com/api/oauth2/authorize?client_id=484098782158651392&permissions=8&scope=bot')
   .setDescription(`**
-  Server Kicked Legend System :cry:
+  Server Kicked Moscow Shop :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("406877114936197120").sendEmbed(embed)
+client.channels.get("531498806139944962").sendEmbed(embed)
 });
  
 
@@ -358,8 +358,8 @@ client.on('message', message => {
             if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('LG=bcall')){
- if (message.author.id !== '406877114936197120') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
- if(!message.author.id === '406877114936197120') return;
+ if (message.author.id !== '531498806139944962') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
+ if(!message.author.id === '531498806139944962') return;
 message.channel.sendMessage('جار ارسال الرسالة |✅')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -552,8 +552,8 @@ function play(guild, song) {
 
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
-const adminprefix = "=";
-const devs = ['484098680954290219','487313531071496195'];
+const adminprefix = "%";
+const devs = ['531498806139944962','531498806139944962'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -2328,7 +2328,7 @@ client.on('message', message => {
         .setTitle('Click Here')
         .setURL(`${omar.avatarURL}`)
         .setImage(`${omar.avatarURL}`)
-        .setFooter('Legend System.',client.user.avatarURL) 
+        .setFooter('Moscow System...',client.user.avatarURL) 
       message.channel.sendEmbed(embed);
     }
 });
@@ -3104,7 +3104,7 @@ let embed = new Discord.RichEmbed()
                 
                                  .addField('شكرا لدخولك سيرفر', `${member.guild.name}`,true)
                                    
- .setFooter("LegendSystem")
+ .setFooter("Mosc System..")
     .setTimestamp()
 
   channel.sendEmbed(embed);
