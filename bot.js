@@ -5,7 +5,7 @@ const prefix = '=';
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` =help | Mosc System.. `,"https://www.twitch.tv/S-F")
+client.user.setGame(` =help | Mosc System.. `,"https://www.twitch.tv/Mosc Shop..")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -2580,23 +2580,17 @@ client.on('message',async message => {
  
     if(!args[1] || args[1] && args[1] === 'info') {
   let embed = new Discord.RichEmbed()
-  .setAuthor('الكلانات', message.author.avatarURL)
-  .setDescription(`- \`${prefix}clan\`: نظام الكلانات هو نظام شبه مسلي ينمي التفاعل ويمكنك التحكم بالكلان تبعك بشكل كامل
-  - \`${prefix}clan info\`: لأظهار رسالة الأوامر ( هذه الرسالة ) ء
-  - \`${prefix}clan create\`: لأنشاء كلان بالأسم الذي تريده
-  - \`${prefix}clan invite\`: لدعوة شخص ما للكلان تبعك
-  - \`${prefix}clan join\`: للتقديم على دخول الكلان الذي تريده
-  - \`${prefix}clan promote\`: لأعطاء شخص بالكلان صلاحيات الادمن ( يتطلب صلاحية الادمن ) ء
-  - \`${prefix}clan demote\`: لأزالة صلاحية الادمن من عضو بالكلان ( صاحب الكلان فقط ) ء
-  - \`${prefix}clan ownership\`: لنقل ملكيةالكلان
-  - \`${prefix}clan leave\`: للخروج من الكلان الذي انت به
-  - \`${prefix}clan kick\`: لطرد عضو من الكلان ( يتطلب صلاحية الادمن ) ء
-  - \`${prefix}clan disband\`: لمسح الكلان من السستم ( صاحب الكلان فقط ) ء
-  - \`${prefix}clan stats\`: لعرض معلومات الكلان تبعك
-  - \`${prefix}clan list\`: يظهر لك اعضاء الكلان برسالة
-  - \`${prefix}clan accept\`: لقبول شخص وجعل الشخص يدخل الكلان ( يتطلب صلاحية الادمن ) ء
-  - \`${prefix}clan decline\`: لرفض شخص وعم جعل الشخص يدخل الكلان ( يطلب صلاحية الادمن ) ء
-  - \`${prefix}clan room\`: لعمل روم شات او كتابي بأسم الكلان ( صاحب الكلان فقط ) ء`)
+  .setAuthor('قريبا', message.author.avatarURL)
+  .setDescription(`- \`${prefix}clan\`: قريبا
+  - \`${prefix}clan info\`:  ٠ ( قريبا ) ء
+  - \`${prefix}clan create\`: قريبا   
+  - \`${prefix}clan invite\`: قريبا
+  - \`${prefix}clan join\`: قريبا
+  - \`${prefix}clan promote\`: ٠ ( قريبا ) ء
+  - \`${prefix}clan demote\`: ٠ ( قريبا ) ء
+  - \`${prefix}clan ownership\`:  قريبا
+  - \`${prefix}clan leave\`: قريبا
+  - \`${prefix}clan kick\`: ٠ ( قريبا ) ء
   .setFooter(message.author.username, message.author.avatarURL);
   message.channel.send(embed);
 }
