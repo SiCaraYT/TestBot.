@@ -5,7 +5,7 @@ const prefix = '=';
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` =help | Mosc System.. `,"https://www.twitch.tv/Mosc Shop..")
+client.user.setGame(`Moscow Shop..| Mosc System.. `,"https://www.twitch.tv/Mosc Shop..")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
